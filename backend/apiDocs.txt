@@ -1,0 +1,4 @@
+get /api/register - returns a new crawler agent, returns a token in base 64
+post /api/unregister&token=abcd3423212
+get /api/getJobs&token=abcd3432432 - returns a json list of urls to crawl, e.g {"urls": ["www.google.co.uk", "www.amazon.co.uk"]}
+post /api/pushUrls&token=abcd3432432 - pushes new urls too db, data is urls in json, e.g. {"urls": ["www.google.co.uk", "www.amazon.co.uk"]}

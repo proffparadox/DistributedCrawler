@@ -1,0 +1,10 @@
+# syntax=docker/dockerfile:1
+
+FROM python:3.10.0b1-slim-buster
+
+COPY pip.txt pip.txt
+RUN pip3 install -r pip.txt
+
+COPY . .
+
+CMD [ "python3", "src/main.py", "-p", "8080"]
