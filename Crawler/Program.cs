@@ -5,9 +5,9 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
 namespace NetCore.Docker {
-   public class Program {
+    public class Program {
         static HttpClient client = new HttpClient();
-        static async Task<string> getToken() {
+        public static async Task<string> getToken() {
             string token = "";
             HttpResponseMessage response = await client.GetAsync("api/register");
             if (response.IsSuccessStatusCode) {
@@ -16,7 +16,7 @@ namespace NetCore.Docker {
             return token;
         }
 
-        static async Task<List<Uri>> GetUrisAsync(string token) {
+        public static async Task<List<Uri>> GetUrisAsync(string token) {
             var uris = new List<Uri>();
             string json = "";
             HttpResponseMessage response = await client.GetAsync($"api/getJobs&token={token}");
@@ -25,11 +25,11 @@ namespace NetCore.Docker {
             }
         }
 
-        static void Main(string[] args) {
+        public static void Main(string[] args) {
             RunAsync().GetAwaiter().GetResult();
         }
-        
-        static async Task RunAsync() {
+
+        public static async Task RunAsync() {
             client.BaseAddress = new Uri("www.laserbeam897.co.uk");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
