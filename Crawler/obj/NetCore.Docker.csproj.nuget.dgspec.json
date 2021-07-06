@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\source\\repos\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj": {}
+    "C:\\Users\\micha\\RiderProjects\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\source\\repos\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj": {
+    "C:\\Users\\micha\\RiderProjects\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\source\\repos\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\RiderProjects\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj",
         "projectName": "NetCore.Docker",
-        "projectPath": "C:\\Users\\micha\\source\\repos\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj",
+        "projectPath": "C:\\Users\\micha\\RiderProjects\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\source\\repos\\DistributedCrawler\\Crawler\\obj\\",
+        "outputPath": "C:\\Users\\micha\\RiderProjects\\DistributedCrawler\\Crawler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

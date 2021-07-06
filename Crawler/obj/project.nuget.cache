@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "romQuV5dEKC0TML/Qjq0JinhEx6gJpKiLfpzy6Kms9ylN9YMpeGjn493iYkhAMeU41O5AGn/oagAuK1AV4STwQ==",
+  "dgSpecHash": "wb4CigoE3JAmxLtMmDfmSgP7ASmYVrfn+VYZSSvwQyRrOQ213KkD/+Q00oLX5UYJ8Y6zoT55WBR2b3VqlFf6Bg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\micha\\source\\repos\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj",
+  "projectFilePath": "C:\\Users\\micha\\RiderProjects\\DistributedCrawler\\Crawler\\NetCore.Docker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micha\\.nuget\\packages\\htmlagilitypack\\1.11.33\\htmlagilitypack.1.11.33.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
