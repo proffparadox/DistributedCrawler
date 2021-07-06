@@ -1,0 +1,23 @@
+version: "3.3"
+services:
+  backend:
+    build: .
+    ports:
+      - "80:8080"
+    environment:
+      - PYTHONUNBUFFERED=1
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: th1sIsNotAGoodPassw0rd
+      POSTGRES_USER: crawler
+      POSTGRES_DB: crawler
+    ports: 
+      - "5432:5432"
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

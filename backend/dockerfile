@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.10.0b1-slim-buster
+FROM python:3.8.3-slim-buster
 
 COPY pip.txt pip.txt
 RUN pip3 install -r pip.txt
